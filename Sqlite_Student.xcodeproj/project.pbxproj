@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8C120E1A074D230087CFA3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8C120B1A074D230087CFA3 /* 1.jpg */; };
+		CE8C120F1A074D230087CFA3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8C120C1A074D230087CFA3 /* 2.jpg */; };
+		CE8C12101A074D230087CFA3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8C120D1A074D230087CFA3 /* 3.jpg */; };
 		CECFE7AB1A069C3C00F62C0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFE7AA1A069C3C00F62C0D /* UIKit.framework */; };
 		CECFE7AD1A069C3C00F62C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFE7AC1A069C3C00F62C0D /* Foundation.framework */; };
 		CECFE7AF1A069C3C00F62C0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFE7AE1A069C3C00F62C0D /* CoreGraphics.framework */; };
@@ -20,6 +23,9 @@
 		CECFE7CB1A069C3D00F62C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFE7AC1A069C3C00F62C0D /* Foundation.framework */; };
 		CECFE7D31A069C3D00F62C0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECFE7D11A069C3D00F62C0D /* InfoPlist.strings */; };
 		CECFE7D61A069C3D00F62C0D /* Sqlite_StudentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE7D51A069C3D00F62C0D /* Sqlite_StudentTests.m */; };
+		CECFE7E01A069EDD00F62C0D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CECFE7DF1A069EDD00F62C0D /* libsqlite3.0.dylib */; };
+		CECFE7E31A069EF100F62C0D /* student.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CECFE7E21A069EF100F62C0D /* student.sqlite */; };
+		CECFE7ED1A06B0FE00F62C0D /* SinhVien.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE7EC1A06B0FE00F62C0D /* SinhVien.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +39,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE8C120B1A074D230087CFA3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CE8C120C1A074D230087CFA3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CE8C120D1A074D230087CFA3 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		CECFE7A61A069C3C00F62C0D /* Sqlite_Student.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sqlite_Student.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECFE7AA1A069C3C00F62C0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CECFE7AC1A069C3C00F62C0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CECFE7AE1A069C3C00F62C0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CECFE7B21A069C3C00F62C0D /* Sqlite_Student-Info.plist */ = {isa = PBXFileReference; path = "Sqlite_Student-Info.plist"; sourceTree = "<group>"; };
+		CECFE7B21A069C3C00F62C0D /* Sqlite_Student-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sqlite_Student-Info.plist"; sourceTree = "<group>"; };
 		CECFE7B41A069C3C00F62C0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CECFE7B61A069C3C00F62C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CECFE7B81A069C3C00F62C0D /* Sqlite_Student-Prefix.pch */ = {isa = PBXFileReference; path = "Sqlite_Student-Prefix.pch"; sourceTree = "<group>"; };
-		CECFE7B91A069C3C00F62C0D /* SBAppDelegate.h */ = {isa = PBXFileReference; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		CECFE7B81A069C3C00F62C0D /* Sqlite_Student-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sqlite_Student-Prefix.pch"; sourceTree = "<group>"; };
+		CECFE7B91A069C3C00F62C0D /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
 		CECFE7BA1A069C3C00F62C0D /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
 		CECFE7BD1A069C3C00F62C0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CECFE7BF1A069C3C00F62C0D /* SBViewController.h */ = {isa = PBXFileReference; path = SBViewController.h; sourceTree = "<group>"; };
+		CECFE7BF1A069C3C00F62C0D /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
 		CECFE7C01A069C3C00F62C0D /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
 		CECFE7C71A069C3C00F62C0D /* Sqlite_StudentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sqlite_StudentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECFE7C81A069C3C00F62C0D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CECFE7D01A069C3D00F62C0D /* Sqlite_StudentTests-Info.plist */ = {isa = PBXFileReference; path = "Sqlite_StudentTests-Info.plist"; sourceTree = "<group>"; };
+		CECFE7D01A069C3D00F62C0D /* Sqlite_StudentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sqlite_StudentTests-Info.plist"; sourceTree = "<group>"; };
 		CECFE7D21A069C3D00F62C0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CECFE7D41A069C3D00F62C0D /* Sqlite_StudentTests.h */ = {isa = PBXFileReference; path = Sqlite_StudentTests.h; sourceTree = "<group>"; };
+		CECFE7D41A069C3D00F62C0D /* Sqlite_StudentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sqlite_StudentTests.h; sourceTree = "<group>"; };
 		CECFE7D51A069C3D00F62C0D /* Sqlite_StudentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sqlite_StudentTests.m; sourceTree = "<group>"; };
+		CECFE7DF1A069EDD00F62C0D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		CECFE7E21A069EF100F62C0D /* student.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = student.sqlite; sourceTree = "<group>"; };
+		CECFE7EB1A06B0FE00F62C0D /* SinhVien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinhVien.h; sourceTree = "<group>"; };
+		CECFE7EC1A06B0FE00F62C0D /* SinhVien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinhVien.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECFE7E01A069EDD00F62C0D /* libsqlite3.0.dylib in Frameworks */,
 				CECFE7AB1A069C3C00F62C0D /* UIKit.framework in Frameworks */,
 				CECFE7AD1A069C3C00F62C0D /* Foundation.framework in Frameworks */,
 				CECFE7AF1A069C3C00F62C0D /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +95,9 @@
 		CECFE79B1A069C3C00F62C0D = {
 			isa = PBXGroup;
 			children = (
+				CECFE7EA1A06B0D600F62C0D /* SinhVien */,
+				CECFE7E51A06AF0900F62C0D /* Photos */,
+				CECFE7E11A069EF100F62C0D /* Database */,
 				CECFE7B01A069C3C00F62C0D /* Sqlite_Student */,
 				CECFE7CE1A069C3D00F62C0D /* Sqlite_StudentTests */,
 				CECFE7A91A069C3C00F62C0D /* Frameworks */,
@@ -135,6 +152,7 @@
 		CECFE7CE1A069C3D00F62C0D /* Sqlite_StudentTests */ = {
 			isa = PBXGroup;
 			children = (
+				CECFE7DF1A069EDD00F62C0D /* libsqlite3.0.dylib */,
 				CECFE7D41A069C3D00F62C0D /* Sqlite_StudentTests.h */,
 				CECFE7D51A069C3D00F62C0D /* Sqlite_StudentTests.m */,
 				CECFE7CF1A069C3D00F62C0D /* Supporting Files */,
@@ -149,6 +167,33 @@
 				CECFE7D11A069C3D00F62C0D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECFE7E11A069EF100F62C0D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CECFE7E21A069EF100F62C0D /* student.sqlite */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CECFE7E51A06AF0900F62C0D /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C120B1A074D230087CFA3 /* 1.jpg */,
+				CE8C120C1A074D230087CFA3 /* 2.jpg */,
+				CE8C120D1A074D230087CFA3 /* 3.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		CECFE7EA1A06B0D600F62C0D /* SinhVien */ = {
+			isa = PBXGroup;
+			children = (
+				CECFE7EB1A06B0FE00F62C0D /* SinhVien.h */,
+				CECFE7EC1A06B0FE00F62C0D /* SinhVien.m */,
+			);
+			name = SinhVien;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +269,10 @@
 			files = (
 				CECFE7B51A069C3C00F62C0D /* InfoPlist.strings in Resources */,
 				CECFE7BE1A069C3C00F62C0D /* MainStoryboard.storyboard in Resources */,
+				CECFE7E31A069EF100F62C0D /* student.sqlite in Resources */,
+				CE8C120E1A074D230087CFA3 /* 1.jpg in Resources */,
+				CE8C120F1A074D230087CFA3 /* 2.jpg in Resources */,
+				CE8C12101A074D230087CFA3 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +310,7 @@
 				CECFE7B71A069C3C00F62C0D /* main.m in Sources */,
 				CECFE7BB1A069C3C00F62C0D /* SBAppDelegate.m in Sources */,
 				CECFE7C11A069C3C00F62C0D /* SBViewController.m in Sources */,
+				CECFE7ED1A06B0FE00F62C0D /* SinhVien.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +480,7 @@
 				CECFE7DB1A069C3D00F62C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CECFE7DC1A069C3D00F62C0D /* Build configuration list for PBXNativeTarget "Sqlite_StudentTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +489,7 @@
 				CECFE7DE1A069C3D00F62C0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
